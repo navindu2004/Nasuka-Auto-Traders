@@ -1,0 +1,76 @@
+-- Insert 60 Japanese vehicles into the cars table
+
+-- Toyota vehicles (14 cars)
+INSERT INTO cars (make, model, year, price_jpy, mileage_km, fuel_type, transmission, color, description, engine_size, body_type, vin, stock_status, market_source) VALUES
+('Toyota', 'Corolla', 2024, 2800000, 15000, 'Gasoline', 'CVT', 'White', 'Reliable compact sedan with excellent fuel economy. Engine: 1.8L, Power: 140hp, Top Speed: 180km/h', '1.8L', 'Sedan', 'JN1ABCD123456789A', 'available', 'Japan Auction Network'),
+('Toyota', 'Camry Hybrid', 2024, 3500000, 8000, 'Hybrid', 'CVT', 'Silver', 'Midsize hybrid sedan with premium features. Engine: 2.5L, Power: 208hp, Top Speed: 200km/h', '2.5L', 'Sedan', 'JN1ABCD123456789B', 'available', 'JAA Osaka'),
+('Toyota', 'RAV4', 2024, 4200000, 12000, 'Gasoline', 'Automatic', 'Black', 'Popular compact SUV with AWD capability. Engine: 2.5L, Power: 203hp, Top Speed: 190km/h', '2.5L', 'SUV', 'JN1ABCD123456789C', 'available', 'USS Tokyo'),
+('Toyota', 'Highlander', 2024, 5800000, 18000, 'Gasoline', 'Automatic', 'Gray', 'Three-row SUV perfect for families. Engine: 3.5L V6, Power: 295hp, Top Speed: 200km/h', '3.5L V6', 'SUV', 'JN1ABCD123456789D', 'available', 'TAA Kansai'),
+('Toyota', 'Land Cruiser', 2024, 8500000, 5000, 'Diesel', 'Automatic', 'White', 'Legendary off-road SUV with premium luxury. Engine: 3.3L V6 Turbo Diesel, Power: 309hp, Top Speed: 210km/h', '3.3L V6 Turbo Diesel', 'SUV', 'JN1ABCD123456789E', 'available', 'USS Tokyo'),
+('Toyota', 'Prius', 2024, 3200000, 10000, 'Hybrid', 'CVT', 'Blue', 'Iconic hybrid with exceptional fuel efficiency. Engine: 2.0L, Power: 196hp, Top Speed: 180km/h', '2.0L', 'Hatchback', 'JN1ABCD123456789F', 'available', 'JAA Osaka'),
+('Toyota', 'Alphard', 2024, 6500000, 7000, 'Hybrid', 'CVT', 'Black', 'Luxury minivan with executive seating. Engine: 2.5L, Power: 190hp, Top Speed: 175km/h', '2.5L', 'Van', 'JN1ABCD123456789G', 'available', 'USS Nagoya'),
+('Toyota', 'Crown', 2024, 5200000, 9000, 'Hybrid', 'CVT', 'Silver', 'Premium executive sedan with hybrid technology. Engine: 2.5L, Power: 236hp, Top Speed: 210km/h', '2.5L', 'Sedan', 'JN1ABCD123456789H', 'available', 'TAA Tokyo'),
+('Toyota', '86 GR', 2024, 3800000, 3000, 'Gasoline', 'Manual', 'Red', 'Lightweight sports coupe with RWD. Engine: 2.4L, Power: 228hp, Top Speed: 226km/h', '2.4L', 'Coupe', 'JN1ABCD123456789I', 'available', 'USS Tokyo'),
+('Toyota', 'C-HR', 2024, 3400000, 14000, 'Hybrid', 'CVT', 'Orange', 'Stylish compact crossover with unique design. Engine: 1.8L, Power: 122hp, Top Speed: 170km/h', '1.8L', 'SUV', 'JN1ABCD123456789J', 'available', 'JAA Osaka'),
+('Toyota', 'Yaris', 2024, 2200000, 10000, 'Hybrid', 'CVT', 'Red', 'Subcompact hatchback with excellent fuel economy. Engine: 1.5L, Power: 120hp, Top Speed: 175km/h', '1.5L', 'Hatchback', 'JN1ABCD123456789K', 'available', 'USS Fukuoka'),
+('Toyota', 'Harrier', 2024, 4700000, 6000, 'Hybrid', 'CVT', 'Black', 'Premium compact SUV with luxury features. Engine: 2.5L, Power: 218hp, Top Speed: 180km/h', '2.5L', 'SUV', 'JN1ABCD123456789L', 'available', 'TAA Kansai'),
+('Toyota', 'Vellfire', 2024, 6800000, 5000, 'Hybrid', 'CVT', 'White', 'Luxury minivan with premium executive seating. Engine: 2.5L, Power: 190hp, Top Speed: 175km/h', '2.5L', 'Van', 'JN1ABCD123456789M', 'available', 'USS Nagoya'),
+('Toyota', 'Aqua', 2024, 2500000, 12000, 'Hybrid', 'CVT', 'Blue', 'Compact hybrid hatchback with excellent MPG. Engine: 1.5L, Power: 91hp, Top Speed: 170km/h', '1.5L', 'Hatchback', 'JN1ABCD123456789N', 'available', 'JAA Osaka');
+
+-- Nissan vehicles (14 cars)
+INSERT INTO cars (make, model, year, price_jpy, mileage_km, fuel_type, transmission, color, description, engine_size, body_type, vin, stock_status, market_source) VALUES
+('Nissan', 'Skyline', 2024, 4500000, 6000, 'Gasoline', 'Automatic', 'Blue', 'Legendary performance sedan with advanced tech. Engine: 3.0L V6 Twin-Turbo, Power: 400hp, Top Speed: 250km/h', '3.0L V6 Twin-Turbo', 'Sedan', 'JN1NISS123456789A', 'available', 'USS Tokyo'),
+('Nissan', 'X-Trail', 2024, 3900000, 11000, 'Gasoline', 'CVT', 'Gray', 'Versatile 7-seater SUV for families. Engine: 2.5L, Power: 181hp, Top Speed: 190km/h', '2.5L', 'SUV', 'JN1NISS123456789B', 'available', 'JAA Osaka'),
+('Nissan', 'Serena', 2024, 3600000, 13000, 'Hybrid', 'CVT', 'White', 'Family minivan with e-POWER hybrid system. Engine: 1.4L, Power: 84hp, Top Speed: 160km/h', '1.4L', 'Van', 'JN1NISS123456789C', 'available', 'TAA Kansai'),
+('Nissan', 'Note', 2024, 2400000, 9000, 'Hybrid', 'CVT', 'Red', 'Compact hatchback with e-POWER technology. Engine: 1.2L, Power: 82hp, Top Speed: 170km/h', '1.2L', 'Hatchback', 'JN1NISS123456789D', 'available', 'USS Nagoya'),
+('Nissan', 'Leaf', 2024, 4100000, 4000, 'Electric', 'Automatic', 'White', 'Popular electric vehicle with long range. Engine: Electric Motor, Power: 214hp, Top Speed: 157km/h', 'Electric Motor', 'Hatchback', 'JN1NISS123456789E', 'available', 'JAA Osaka'),
+('Nissan', 'Patrol', 2024, 7200000, 8000, 'Gasoline', 'Automatic', 'Black', 'Full-size luxury SUV with powerful V8. Engine: 5.6L V8, Power: 400hp, Top Speed: 210km/h', '5.6L V8', 'SUV', 'JN1NISS123456789F', 'available', 'USS Tokyo'),
+('Nissan', 'Fairlady Z', 2024, 5900000, 2000, 'Gasoline', 'Manual', 'Yellow', 'Iconic sports car with modern performance. Engine: 3.0L V6 Twin-Turbo, Power: 400hp, Top Speed: 250km/h', '3.0L V6 Twin-Turbo', 'Coupe', 'JN1NISS123456789G', 'available', 'USS Tokyo'),
+('Nissan', 'Kicks', 2024, 2900000, 16000, 'Hybrid', 'CVT', 'Orange', 'Subcompact crossover with e-POWER. Engine: 1.2L, Power: 129hp, Top Speed: 165km/h', '1.2L', 'SUV', 'JN1NISS123456789H', 'available', 'JAA Osaka'),
+('Nissan', 'Ariya', 2024, 5400000, 3000, 'Electric', 'Automatic', 'Gray', 'All-electric crossover SUV with advanced tech. Engine: Electric Motor, Power: 389hp, Top Speed: 200km/h', 'Electric Motor', 'SUV', 'JN1NISS123456789I', 'available', 'TAA Tokyo'),
+('Nissan', 'Murano', 2024, 4800000, 10000, 'Gasoline', 'CVT', 'Silver', 'Stylish midsize SUV with premium features. Engine: 3.5L V6, Power: 260hp, Top Speed: 195km/h', '3.5L V6', 'SUV', 'JN1NISS123456789J', 'available', 'USS Nagoya'),
+('Nissan', 'Sylphy', 2024, 2700000, 11000, 'Gasoline', 'CVT', 'Silver', 'Comfortable compact sedan with spacious cabin. Engine: 1.8L, Power: 131hp, Top Speed: 180km/h', '1.8L', 'Sedan', 'JN1NISS123456789K', 'available', 'JAA Osaka'),
+('Nissan', 'Elgrand', 2024, 4200000, 9000, 'Gasoline', 'CVT', 'Black', 'Premium large minivan with luxury amenities. Engine: 3.5L V6, Power: 280hp, Top Speed: 180km/h', '3.5L V6', 'Van', 'JN1NISS123456789L', 'available', 'USS Tokyo');
+
+-- Honda vehicles (14 cars)
+INSERT INTO cars (make, model, year, price_jpy, mileage_km, fuel_type, transmission, color, description, engine_size, body_type, vin, stock_status, market_source) VALUES
+('Honda', 'Civic', 2024, 3100000, 12000, 'Gasoline', 'CVT', 'Blue', 'Sporty compact sedan with refined handling. Engine: 1.5L Turbo, Power: 180hp, Top Speed: 200km/h', '1.5L Turbo', 'Sedan', 'JN1HOND123456789A', 'available', 'USS Tokyo'),
+('Honda', 'Accord', 2024, 3800000, 9000, 'Hybrid', 'CVT', 'White', 'Midsize sedan with excellent hybrid efficiency. Engine: 2.0L, Power: 204hp, Top Speed: 195km/h', '2.0L', 'Sedan', 'JN1HOND123456789B', 'available', 'JAA Osaka'),
+('Honda', 'CR-V', 2024, 4300000, 11000, 'Hybrid', 'CVT', 'Gray', 'Versatile compact SUV with spacious interior. Engine: 2.0L, Power: 204hp, Top Speed: 185km/h', '2.0L', 'SUV', 'JN1HOND123456789C', 'available', 'TAA Kansai'),
+('Honda', 'Vezel', 2024, 3300000, 7000, 'Hybrid', 'CVT', 'Red', 'Subcompact crossover with hybrid technology. Engine: 1.5L, Power: 131hp, Top Speed: 175km/h', '1.5L', 'SUV', 'JN1HOND123456789D', 'available', 'USS Nagoya'),
+('Honda', 'Odyssey', 2024, 4500000, 14000, 'Gasoline', 'CVT', 'Black', 'Premium minivan with innovative features. Engine: 2.4L, Power: 175hp, Top Speed: 180km/h', '2.4L', 'Van', 'JN1HOND123456789E', 'available', 'JAA Osaka'),
+('Honda', 'Fit', 2024, 2300000, 8000, 'Hybrid', 'CVT', 'Yellow', 'Compact hatchback with flexible interior. Engine: 1.5L, Power: 109hp, Top Speed: 170km/h', '1.5L', 'Hatchback', 'JN1HOND123456789F', 'available', 'USS Fukuoka'),
+('Honda', 'NSX', 2024, 24000000, 1000, 'Hybrid', 'Automatic', 'Red', 'Hybrid supercar with cutting-edge technology. Engine: 3.5L V6 Twin-Turbo, Power: 573hp, Top Speed: 307km/h', '3.5L V6 Twin-Turbo', 'Coupe', 'JN1HOND123456789G', 'available', 'USS Tokyo'),
+('Honda', 'Freed', 2024, 2800000, 10000, 'Hybrid', 'CVT', 'White', 'Compact minivan perfect for city driving. Engine: 1.5L, Power: 110hp, Top Speed: 160km/h', '1.5L', 'Van', 'JN1HOND123456789H', 'available', 'JAA Osaka'),
+('Honda', 'Civic Type R', 2024, 5200000, 2000, 'Gasoline', 'Manual', 'White', 'High-performance hot hatch with race-bred tech. Engine: 2.0L Turbo, Power: 315hp, Top Speed: 272km/h', '2.0L Turbo', 'Hatchback', 'JN1HOND123456789I', 'available', 'USS Tokyo'),
+('Honda', 'Pilot', 2024, 5100000, 13000, 'Gasoline', 'Automatic', 'Blue', 'Three-row midsize SUV for large families. Engine: 3.5L V6, Power: 280hp, Top Speed: 195km/h', '3.5L V6', 'SUV', 'JN1HOND123456789J', 'available', 'TAA Tokyo'),
+('Honda', 'Shuttle', 2024, 2600000, 9000, 'Hybrid', 'CVT', 'Silver', 'Compact wagon with hybrid efficiency. Engine: 1.5L, Power: 110hp, Top Speed: 175km/h', '1.5L', 'Wagon', 'JN1HOND123456789K', 'available', 'USS Nagoya'),
+('Honda', 'Stepwgn', 2024, 3400000, 8000, 'Hybrid', 'CVT', 'White', 'Family minivan with innovative seating. Engine: 2.0L, Power: 145hp, Top Speed: 165km/h', '2.0L', 'Van', 'JN1HOND123456789L', 'available', 'JAA Osaka');
+
+-- Mazda vehicles (12 cars)
+INSERT INTO cars (make, model, year, price_jpy, mileage_km, fuel_type, transmission, color, description, engine_size, body_type, vin, stock_status, market_source) VALUES
+('Mazda', 'Mazda3', 2024, 2900000, 11000, 'Gasoline', 'Automatic', 'Red', 'Premium compact with SKYACTIV technology. Engine: 2.0L, Power: 155hp, Top Speed: 195km/h', '2.0L', 'Sedan', 'JN1MAZD123456789A', 'available', 'USS Tokyo'),
+('Mazda', 'Mazda6', 2024, 3600000, 9000, 'Gasoline', 'Automatic', 'Blue', 'Stylish midsize sedan with premium feel. Engine: 2.5L Turbo, Power: 250hp, Top Speed: 210km/h', '2.5L Turbo', 'Sedan', 'JN1MAZD123456789B', 'available', 'JAA Osaka'),
+('Mazda', 'CX-5', 2024, 3800000, 12000, 'Gasoline', 'Automatic', 'Gray', 'Compact SUV with upscale interior. Engine: 2.5L, Power: 187hp, Top Speed: 190km/h', '2.5L', 'SUV', 'JN1MAZD123456789C', 'available', 'TAA Kansai'),
+('Mazda', 'CX-8', 2024, 4400000, 10000, 'Diesel', 'Automatic', 'Black', 'Three-row SUV with premium features. Engine: 2.2L Turbo Diesel, Power: 190hp, Top Speed: 195km/h', '2.2L Turbo Diesel', 'SUV', 'JN1MAZD123456789D', 'available', 'USS Nagoya'),
+('Mazda', 'CX-30', 2024, 3200000, 8000, 'Gasoline', 'Automatic', 'White', 'Subcompact crossover with refined handling. Engine: 2.0L, Power: 155hp, Top Speed: 185km/h', '2.0L', 'SUV', 'JN1MAZD123456789E', 'available', 'JAA Osaka'),
+('Mazda', 'MX-5 Miata', 2024, 3500000, 3000, 'Gasoline', 'Manual', 'Red', 'Iconic lightweight roadster with pure driving joy. Engine: 2.0L, Power: 181hp, Top Speed: 219km/h', '2.0L', 'Convertible', 'JN1MAZD123456789F', 'available', 'USS Tokyo'),
+('Mazda', 'CX-60', 2024, 5200000, 5000, 'Hybrid', 'Automatic', 'Silver', 'New generation SUV with plug-in hybrid. Engine: 2.5L, Power: 327hp, Top Speed: 200km/h', '2.5L', 'SUV', 'JN1MAZD123456789G', 'available', 'TAA Tokyo'),
+('Mazda', '2', 2024, 2100000, 15000, 'Gasoline', 'Automatic', 'Blue', 'Affordable subcompact with Mazda quality. Engine: 1.5L, Power: 110hp, Top Speed: 175km/h', '1.5L', 'Hatchback', 'JN1MAZD123456789H', 'available', 'USS Fukuoka'),
+('Mazda', 'CX-9', 2024, 4900000, 11000, 'Gasoline', 'Automatic', 'Gray', 'Large three-row SUV with premium comfort. Engine: 2.5L Turbo, Power: 250hp, Top Speed: 200km/h', '2.5L Turbo', 'SUV', 'JN1MAZD123456789I', 'available', 'JAA Osaka'),
+('Mazda', 'RX-Vision', 2024, 8500000, 500, 'Gasoline', 'Manual', 'Red', 'Return of the rotary engine sports car. Engine: Rotary, Power: 450hp, Top Speed: 270km/h', 'Rotary', 'Coupe', 'JN1MAZD123456789J', 'available', 'USS Tokyo'),
+('Mazda', 'Bongo', 2024, 2400000, 16000, 'Diesel', 'Manual', 'White', 'Commercial van with reliable diesel engine. Engine: 1.8L Diesel, Power: 100hp, Top Speed: 140km/h', '1.8L Diesel', 'Van', 'JN1MAZD123456789K', 'available', 'TAA Kansai');
+
+-- Mitsubishi vehicles (10 cars) + Toyota Sienta
+INSERT INTO cars (make, model, year, price_jpy, mileage_km, fuel_type, transmission, color, description, engine_size, body_type, vin, stock_status, market_source) VALUES
+('Mitsubishi', 'Outlander', 2024, 3700000, 10000, 'Hybrid', 'CVT', 'White', 'Plug-in hybrid SUV with excellent efficiency. Engine: 2.4L, Power: 221hp, Top Speed: 170km/h', '2.4L', 'SUV', 'JN1MITS123456789A', 'available', 'JAA Osaka'),
+('Mitsubishi', 'Pajero', 2024, 5400000, 7000, 'Diesel', 'Automatic', 'Black', 'Legendary off-road SUV with exceptional capability. Engine: 3.2L Turbo Diesel, Power: 190hp, Top Speed: 180km/h', '3.2L Turbo Diesel', 'SUV', 'JN1MITS123456789B', 'available', 'USS Tokyo'),
+('Mitsubishi', 'Delica D:5', 2024, 3900000, 13000, 'Diesel', 'Automatic', 'Silver', 'Versatile 4WD minivan for adventure. Engine: 2.2L Turbo Diesel, Power: 145hp, Top Speed: 160km/h', '2.2L Turbo Diesel', 'Van', 'JN1MITS123456789C', 'available', 'TAA Kansai'),
+('Mitsubishi', 'Eclipse Cross', 2024, 3200000, 9000, 'Hybrid', 'CVT', 'Red', 'Compact crossover with plug-in hybrid option. Engine: 2.4L, Power: 188hp, Top Speed: 175km/h', '2.4L', 'SUV', 'JN1MITS123456789D', 'available', 'USS Nagoya'),
+('Mitsubishi', 'Lancer Evolution', 2024, 4800000, 4000, 'Gasoline', 'Manual', 'Blue', 'Rally-bred performance sedan with AWD. Engine: 2.0L Turbo, Power: 303hp, Top Speed: 243km/h', '2.0L Turbo', 'Sedan', 'JN1MITS123456789E', 'available', 'USS Tokyo'),
+('Mitsubishi', 'Triton', 2024, 3500000, 12000, 'Diesel', 'Manual', 'White', 'Rugged pickup truck with excellent towing. Engine: 2.4L Turbo Diesel, Power: 181hp, Top Speed: 175km/h', '2.4L Turbo Diesel', 'Truck', 'JN1MITS123456789F', 'available', 'JAA Osaka'),
+('Mitsubishi', 'eK X', 2024, 1800000, 6000, 'Gasoline', 'CVT', 'Yellow', 'Kei car with spacious interior design. Engine: 0.66L, Power: 49hp, Top Speed: 140km/h', '0.66L', 'Hatchback', 'JN1MITS123456789G', 'available', 'USS Fukuoka'),
+('Mitsubishi', 'RVR', 2024, 2800000, 14000, 'Gasoline', 'CVT', 'Gray', 'Compact crossover with AWD capability. Engine: 2.0L, Power: 148hp, Top Speed: 180km/h', '2.0L', 'SUV', 'JN1MITS123456789H', 'available', 'TAA Tokyo'),
+('Mitsubishi', 'Mirage', 2024, 1900000, 11000, 'Gasoline', 'CVT', 'White', 'Economical subcompact hatchback. Engine: 1.2L, Power: 78hp, Top Speed: 165km/h', '1.2L', 'Hatchback', 'JN1MITS123456789I', 'available', 'JAA Osaka'),
+('Mitsubishi', 'Pajero Sport', 2024, 4600000, 8000, 'Diesel', 'Automatic', 'Black', '7-seater SUV with serious off-road credentials. Engine: 2.4L Turbo Diesel, Power: 181hp, Top Speed: 180km/h', '2.4L Turbo Diesel', 'SUV', 'JN1MITS123456789J', 'available', 'USS Tokyo'),
+('Toyota', 'Sienta', 2024, 2900000, 7000, 'Hybrid', 'CVT', 'Orange', 'Compact minivan with flexible seating for 7. Engine: 1.5L, Power: 116hp, Top Speed: 160km/h', '1.5L', 'Van', 'JN1TOYO123456789Z', 'available', 'JAA Osaka');
