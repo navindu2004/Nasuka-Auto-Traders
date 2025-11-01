@@ -11,7 +11,7 @@ const HomePage = () => {
               Import Your Dream Car from Japan
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
-              Browse authentic Japanese vehicles, place your order, and we'll handle the entire purchase and shipping process
+              Browse authentic Japanese vehicles, place your order, and we'll handle the entire purchase and shipping processes
             </p>
             <Link
               to="/cars"
